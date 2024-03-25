@@ -1,39 +1,55 @@
 body {
-    --header-bg-color: rgb(17, 19, 24);
-    --main-bg-color: rgb(26, 29, 37);
-    --flashcard-bg-color: rgb(38, 43, 57);
-    min-height: 100vh;
-  
+	--header-bg-color: rgb(17, 19, 24);
+	--main-bg-color: rgb(26, 29, 37);
+	--flashcard-bg-color: rgb(38, 43, 57);
+	min-height: 100vh;
 }
 
 footer {
-    background-color: var(--header-bg-color);
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	background-color: var(--header-bg-color);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 #header {
-    background-color: var(--header-bg-color);
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	background-color: var(--header-bg-color);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .main {
-    background-color: var(--main-bg-color);
-    color: #FFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	background-color: var(--main-bg-color);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 html {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100vw;
+}
 
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.flash-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--flashcard-bg-color);
+	padding: 2em;
+	border-radius: 10px;
+	border: 1px solid #fff;
 }
