@@ -1,14 +1,14 @@
-import { useState } from "react";
-
 import "./App.css";
-import Header from "./assets/Header/header";
+import Header from "./Header/header";
+import Main from "./Main/main";
+import Footer from "./Footer/footer";
 
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
 			<Header />
+			<Main />
+			<Footer />
 		</>
 	);
 }
